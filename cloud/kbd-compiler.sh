@@ -13,10 +13,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-src=/usr/local/google/home/wuyingbing/opensource/google-input-tools/src/cloud
-closure=/usr/local/google/home/wuyingbing/opensource/closure
+src=.
+closure=../../closure-library
+closurecompiler=./../../../lib/closure-compiler/build
 $closure/closure/bin/calcdeps.py -i $src/keyboard/standalone.js \
   -p $closure -o compiled -p $src \
-  -c $closure/compiler.jar \
+  -c $closurecompiler/compiler.jar \
   -f "--compilation_level=ADVANCED_OPTIMIZATIONS" \
   > kbd.js

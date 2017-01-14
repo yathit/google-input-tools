@@ -34,19 +34,19 @@ def download_and_extract(url, dest):
 
 FILE_LIST = [
   {
-    'url' : 'https://protobuf.googlecode.com/files/protoc-2.5.0-win32.zip',
+    'url' : 'https://github.com/google/protobuf/releases/download/v2.5.0/protoc-2.5.0-win32.zip',
     'dest' : 'depends/',
   },
   {
-    'url' : 'https://protobuf.googlecode.com/files/protobuf-2.5.0.zip',
+    'url' : 'https://github.com/google/protobuf/releases/download/v2.5.0/protobuf-2.5.0.zip',
     'dest' : 'depends/',
   },
   {
-    'url' : 'https://googletest.googlecode.com/files/gtest-1.7.0.zip',
+    'url' : 'https://github.com/google/googletest/archive/release-1.7.0.zip',
     'dest' : 'depends/',
   },
   {
-    'url' : 'http://zlib.net/zlib-1.2.8.tar.gz',
+    'url' : 'http://zlib.net/fossils/zlib-1.2.8.tar.gz',
     'dest' : 'depends/',
   },
   {
